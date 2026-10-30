@@ -10,7 +10,6 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
-    maven("https://alpr.parkr.app/maven") { content { includeGroup("app.parkr") } }
   }
 }
 

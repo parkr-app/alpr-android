@@ -39,7 +39,7 @@ The model reads plates from 65 countries and reports the country of each plate a
 
 ```kotlin
 repositories {
-  maven("https://alpr.parkr.app/maven") { content { includeGroup("app.parkr") } }
+  mavenCentral()
 }
 
 dependencies {
