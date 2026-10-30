@@ -1,13 +1,21 @@
 # AlprKit for Android
 
-On-device license plate recognition for Android apps written in Kotlin or Java. It is the native SDK behind [react-native-alpr](https://github.com/parkr-app/react-native-alpr). One license key works for both.
-
-The basic scanner is free, also in production. PRO features need a license key in release builds; they work without one in debuggable builds.
+On-device license plate recognition (ALPR/ANPR) for Android apps written in Kotlin or Java. AlprKit is the native SDK behind [react-native-alpr](https://github.com/parkr-app/react-native-alpr); one license key works for both.
 
 <p align="center">
   <img src="https://alpr.parkr.app/screenshots/android-scan-nissan-e-nv200.webp" width="200" alt="Android: live scan reading EL 64433">
   <img src="https://alpr.parkr.app/screenshots/android-photo-nissan-leaf.webp" width="200" alt="Android: EL 15211 read from a photo">
-</p> Get a key at [alpr.parkr.app](https://alpr.parkr.app).
+</p>
+<p align="center"><sub>Photos: Norsk Elbilforening and Mariordo, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via <a href="https://commons.wikimedia.org/wiki/Category:Electric_vehicle_license_plates_of_Norway">Wikimedia Commons</a>, cropped.</sub></p>
+
+- Fully offline, runs on the device (LiteRT from Google Play services)
+- Live camera scanning at 30 FPS with GPU acceleration
+- Plate text, country and bounding box, several plates per frame, [65 countries](#supported-countries)
+- Stable results: reads from several frames are combined into one answer, and boxes move smoothly
+- One-shot scanning that waits for a certain read instead of taking the first blurry frame
+- Recognition in photos
+
+**The basic scanner is free, also in production.** PRO features need a license key in release builds and work without one in debuggable builds. Get a key at [alpr.parkr.app](https://alpr.parkr.app).
 
 ## Platforms
 
