@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-  implementation("app.parkr:alpr:0.4.5")
+  implementation("app.parkr:alpr:0.4.6")
 }
 ```
 
