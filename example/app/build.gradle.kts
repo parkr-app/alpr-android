@@ -26,6 +26,6 @@ kotlin {
 }
 
 dependencies {
-  implementation("app.parkr:alpr:0.5.0")
+  implementation("app.parkr:alpr:0.5.1")
   implementation("androidx.activity:activity-ktx:1.10.1")
 }
