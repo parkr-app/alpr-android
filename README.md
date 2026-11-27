@@ -73,7 +73,7 @@ Listener methods:
 - `onPlatesRaw`: every read in the current frame, unsmoothed, throttled
 - `onError`
 
-Set `recognizesPlates` or `scansPlates` to `false` when you don't implement that method. Turning off `showOverlay` or `showScanRegion` is PRO.
+Set `recognizesPlates` or `scansPlates` to `false` when you don't implement that method. Turning off `showOverlay` or `showRegion` is PRO.
 
 ## Photos (PRO)
 
